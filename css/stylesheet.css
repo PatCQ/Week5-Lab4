@@ -50,4 +50,11 @@ footer > p {
     .links > a {
         margin: 6px;
     }
+    li {
+        display:grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        border-bottom: solid black;
+    }
 }
