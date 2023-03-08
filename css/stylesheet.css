@@ -34,7 +34,8 @@ body {
 header {
     background-color:#b0e0e6;
 }
-footer {
+footer > p {
+    height: fit-content;
     background-color:#b0e0e6;
     text-align:center;
 }
