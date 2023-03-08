@@ -9,6 +9,14 @@ body {
     align-items: center;
     margin: 6px;
 }
+ul {
+    padding: 0px;
+}
+ul > li {
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: solid grey;
+}
 h1 {
     color:#294242;
 }
